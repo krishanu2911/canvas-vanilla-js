@@ -8,7 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-<canvas id="draw" width="400px" height="400px"></canvas>
+    <div id="controls">
+    <h2>StrokeSize:</h2>
+    <input class="stroke-size-input" type="range" name="spacing" min="5" max="50" value="10" data-sizing="px">
+    <h2>StrokeColor:</h2>
+    <input class="stroke-color-input" type="color" name="base" value="#60A5FA">
+    </div>
+    
+    <canvas id="draw" width="700rem" height="500rem"></canvas>
 
 <script src="app.js" type="text/javascript"></script>
 </body>

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Montserrat:wght@300;400;700&family=Yuji+Boku&display=swap');
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #cbd5e1;
+}
+#draw{
+    background-color: white;
+    display: block;
+    box-shadow: 0 0 1rem #64748b;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+#controls{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    
+
+}
+h2{
+    margin: 1rem;
+}
+.stroke-color-input{
+    position: relative;
+    top: 1.2rem;
+    /* left: 1.5rem; */
+}
