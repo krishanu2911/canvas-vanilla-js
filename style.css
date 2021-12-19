@@ -20,6 +20,15 @@ body{
     
 
 }
+.rainbow {
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 1.5rem;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    cursor:pointer;
+  }
+
 h2{
     margin: 1rem;
 }
